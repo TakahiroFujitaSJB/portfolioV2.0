@@ -1,27 +1,41 @@
 import React, { useState } from 'react';
+import Lottie from "lottie-react";
+
 import {  } from 'react-icons/bs';
+import SD from '../assets/lottie/SoftwareDev';
+import animation from '../assets/img/AniGlobe.gif';
 
 const Home = () => {
+  
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full centre h-screen bg-cover relative'
+    
+    style={{
+      backgroundImage: `url(${animation})` , zIndex: 0,
+    }} 
+    
+    >
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+      <div className='max-w-[1200px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600'>Hello! My name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
-          TAKAHIRO FUJITA
+        <h1 className='text-4xl  sm:text-7xl pb-5 font-bold text-[#9ea5be]'>
+          TAKAHIRO FUJITA (藤田孝宗)
         </h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a Software Engineer and Web Developer.
-        </h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a recent Software Egineering Grauate specializing in requirement and HCI (Human Computer Interaction) engineerng and building software systems as well as web apps!
-          As of recently, I've been honing my skills as a Frontend designer and developer! 
-        </p>
+        <div className='max-w-[1300px] w-full grid grid-cols-2 gap-8 align-middle'>
+          <h2 className='text-4xl sm:text-5xl font-bold text-[#8892b0] self-center'>
+            Software Engineer and Web Developer.
+          </h2>
+          
+          <div className='max-h-[300px] max-w-[300px] pt-3'>
+            <Lottie animationData={SD} />
+          </div>
+
+        </div>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-500 hover:border-blue-700'>
             View my skillset
             <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
+              <i class="bi bi-arrow-right"></i>
             </span>
           </button>
         </div>

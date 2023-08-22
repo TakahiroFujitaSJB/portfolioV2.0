@@ -1,24 +1,28 @@
 import React from 'react';
+import Self2 from '../assets/img/self2.jpg'; 
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='about' className='w-full h-screen bg-gradient-to-b from-[#000000] via-[#0e2246] to-[#1854ad] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 align-middle'>
           <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+            <p className='text-4xl font-bold  inline border-b-4 border-pink-600'>
               About
             </p>
           </div>
-          <div></div>
+          <div>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hello. I'm Takahiro Fujita. I'm a Japanese and English speaking Software Developer.</p>
+          </div>
+          <div className='w-full grid sm:grid-cols-2 gap-6 px-4'>
+            <div className='max-w-[1300px] flex items-right justify-end'>
+              <img src={Self2} alt="Self2" className="w-[400px] h-[430px]"/>;
             </div>
-            <div>
+            <div className='max-w-[630px] max-h-[600px] text-2xl self-center'>
               <p>
-                I studied Software Engineering at University of Calgary.
+              I'm a Japanese and English speaking Software and Web Developer who recently Graduated from University of Calgary Majoring in Software Engineering.
+              <br/> <br/> I specialize in Requirement and HCI (Human Computer Interaction) engineering. I Build software systems as well as web apps!
+              As of recently, I've been honing my skills as a Frontend designer and developer! 
               </p>  
             </div>
           </div>

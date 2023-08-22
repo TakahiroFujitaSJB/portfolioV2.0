@@ -1,29 +1,21 @@
 import React, { useState } from 'react';
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
-} from 'react-icons/fa';
+
 
 import { BsMailbox } from 'react-icons/bs';
 import { BsFillPassFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import Logo from '../assets/img/logo.PNG'
+import Logo from '../assets/img/Logo.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-    const handleClick = () => setNav(!nav);
     
     return (
-        <div className='fixed w-full h-[80px] flex justify-left items-center 
-        px-4 bg-black text-gray-300'> 
+    <div className='fixed w-full h-[80px] flex justify-left items-center 
+        px-5 bg-[#000000] text-gray-300 z-20'> 
 
-            <div>
-            <img src={Logo} alt="My Face" style={{height: '40px', width: '80px'}} />
-            </div>
+        <div>
+            <img src={Logo} alt="Logo" className="w-[80px] h-[40px]" />
+        </div>
 
             <ul className='md:flex'>
                 <li>
@@ -37,7 +29,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to='skills and work' smooth={true} duration={500}>
+                    <Link to='skills' smooth={true} duration={500}>
                     Skills and Work
                     </Link>
                 </li>
@@ -48,12 +40,12 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 z-20' >
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ff3535]'>
                         <a
                         className='flex justify-between items-right w-full text-gray-300'
-                        href='/'
+                        href='mailto:TakahiroTanakaSJB@gmail.com'
                         >
                         Email <BsMailbox size={30} />
                         </a>
@@ -61,15 +53,15 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a
                         className='flex justify-between items-right w-full text-gray-300'
-                        href='/'
-                        >
-                        Resume <BsFillPassFill size={30} />
+                        href='https://drive.google.com/file/d/18Q2Ec1yTuG8P2m-VzsCreJeiNK3VHtos/view?usp=sharing'
+                        target="_blank">
+                        Resume & Transcript  <BsFillPassFill size={50} />
                         </a>
                     </li>
                 </ul>
             </div>
 
-        </div>
+    </div>
     );
 };
 
