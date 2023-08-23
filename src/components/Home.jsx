@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Lottie from "lottie-react";
 
+import { Link } from 'react-scroll';
 import {  } from 'react-icons/bs';
 import SD from '../assets/lottie/SoftwareDev';
 import animation from '../assets/img/AniGlobe.gif';
@@ -29,15 +30,14 @@ const Home = () => {
           <div className='max-h-[300px] max-w-[300px] pt-3'>
             <Lottie animationData={SD} />
           </div>
-
         </div>
+        
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-500 hover:border-blue-700'>
+          <li className='text-white group border-2 max-w-[150px] px-3 py-3 my-2 flex items-center hover:bg-blue-500 hover:border-blue-700' to='skills' smooth={true} duration={500}>
+            <Link to='skills' smooth={true} duration={500}>
             View my skillset
-            <span className='group-hover:rotate-90 duration-300'>
-              <i class="bi bi-arrow-right"></i>
-            </span>
-          </button>
+            </Link>
+          </li>
         </div>
       </div>
     </div>

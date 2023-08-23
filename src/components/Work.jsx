@@ -19,14 +19,14 @@ const Work = () => {
         </div>
 
 {/* container for projects */}
-<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 ">
+<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-[150px] ">
           
           {/* Gird Item */}
           {project.map((item, index) => (
   <div
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
-    className="hover:scale-110 duration-500 shadow-lg w-[300px] h-[250px] bg-cover bg-center shadow-[#040c16] group container rounded-md 
+    className="hover:scale-110 duration-500 shadow-lg w-[350px] h-[300px] bg-cover bg-center bg-no-repeat shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
   > 
     {/* Hover effect for images */}
