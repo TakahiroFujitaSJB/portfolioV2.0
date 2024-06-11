@@ -25,7 +25,7 @@ import csharp from '../assets/img/csharp.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen pt-80 pb-14 bg-gradient-to-b from-[#1854ad] via-[#4508b4] to-[#b503fc] text-gray-300'>
+    <div name='skills' className='w-full h-screen pb-14 bg-gradient-to-b from-[#1854ad] via-[#4508b4] to-[#b503fc] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='w-full grid grid-cols-2 sm:grid-cols-2 text-center'>

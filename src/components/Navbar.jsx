@@ -29,7 +29,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to='skills' smooth={true} duration={500}>
+                    <Link to='skills' offset={-200} smooth={true} duration={500}>
                     Skills and Work
                     </Link>
                 </li>
