@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How launch locally
 
-In the project directory, you can run:
+This website is deployed online using Firebase (https://portfolio-b9eb3.web.app/) but in case you wish to run locally, in the project directory, you can run:
 
 ### `npm start`
 
