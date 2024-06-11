@@ -2,9 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## It's online using Firebase! Access it now!
+
+This website is deployed online using Firebase: https://portfolio-b9eb3.web.app/
+
 ## How launch locally
 
-This website is deployed online using Firebase (https://portfolio-b9eb3.web.app/) but in case you wish to run locally, in the project directory, you can run:
+In case you wish to run locally, in the project directory, you can run:
 
 ### `npm start`
 
