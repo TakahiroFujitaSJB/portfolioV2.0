@@ -14,6 +14,14 @@ import ReactImg from '../assets/img/react.png';
 import Node from '../assets/img/node.png';
 import GitHub from '../assets/img/github.png';
 import Tailwind from '../assets/img/tailwind.png';
+import ETC from '../assets/img/gears.png';
+import Excel from '../assets/img/Excel.png';
+import MySQL from '../assets/img/MySQL.png';
+import Git from '../assets/img/git.png';
+import AzureML from '../assets/img/AzureML.png';
+import Postman from '../assets/img/postman.png';
+import Django from '../assets/img/django.png';
+import csharp from '../assets/img/csharp.png';
 
 const Skills = () => {
   return (
@@ -35,6 +43,10 @@ const Skills = () => {
                   <p className='my-4'>C++</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-16 mx-auto py-2' src={csharp} alt="HTML icon" />
+                  <p className='my-4'>C#</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={Python} alt="HTML icon" />
                   <p className='my-4'>Python</p>
               </div>
@@ -45,15 +57,18 @@ const Skills = () => {
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={BERT} alt="HTML icon" />
                   <p className='my-4'>BERT Hugging face</p>
-              </div>         
-
+              </div>     
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='max-w-[100px] max-h-[100px] mx-auto py-1' src={Java} alt="HTML icon" />
-                  <p className='my-4'>JAVA</p>
+                  <img className='w-20 mx-auto mt-7 py-1' src={Excel} alt="HTML icon" />
+                  <p className='my-4'>Excel</p>
+              </div>    
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='max-w-[100px] max-h-[95px] mx-auto py-1' src={Java} alt="HTML icon" />
+                  <p className='my-4'>Java</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
-                  <p className='my-4'>JAVASCRIPT</p>
+                  <img className='w-20 mx-auto py-1' src={JavaScript} alt="HTML icon" />
+                  <p className='my-4'>JavaScript</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={HTML} alt="HTML icon" />
@@ -65,19 +80,43 @@ const Skills = () => {
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={ReactImg} alt="HTML icon" />
-                  <p className='my-4'>REACT</p>
+                  <p className='my-4'>React</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-1' src={Git} alt="HTML icon" />
+                  <p className='my-4'>Git</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={GitHub} alt="HTML icon" />
-                  <p className='my-4'>GITHUB</p>
+                  <p className='my-4'>GitHub</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={Node} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
+                  <p className='my-4'>Node JS</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={Tailwind} alt="HTML icon" />
-                  <p className='my-4'>TAILWIND</p>
+                  <p className='my-4'>Tailwind</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-1' src={MySQL} alt="HTML icon" />
+                  <p className='my-4'>MySQL</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-1' src={Django} alt="HTML icon" />
+                  <p className='my-4'>Django</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-1' src={Postman} alt="HTML icon" />
+                  <p className='my-5'>Postman</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-1' src={AzureML} alt="HTML icon" />
+                  <p className='my-4'>AzureML</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-1' src={ETC} alt="HTML icon" />
+                  <p className='my-4'>and much more!</p>
               </div>
           </div>
       </div>

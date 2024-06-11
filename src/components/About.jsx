@@ -20,9 +20,9 @@ const About = () => {
             </div>
             <div className='max-w-[630px] max-h-[600px] text-2xl self-center'>
               <p>
-              I'm a Japanese and English speaking Software and Web Developer who recently Graduated from University of Calgary Majoring in Software Engineering.
-              <br/> <br/> I specialize in Requirement and HCI (Human Computer Interaction) engineering. I Build software systems as well as web apps!
-              As of recently, I've been honing my skills as a Frontend designer and developer! 
+              I'm a English and Japanese speaking Software and Web Developer who recently Graduated from University of Calgary, majoring in Software Engineering.
+              <br/> <br/> I specialize in Frontend and HCI (Human Computer Interaction) engineering. I also build software systems as well as web apps!
+              As of recently, I've been honing my skills as a Full-stack developer as well! 
               </p>  
             </div>
           </div>
