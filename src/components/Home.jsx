@@ -34,7 +34,7 @@ const Home = () => {
         
         <div>
           <li className='text-white group border-2 max-w-[150px] px-3 py-3 my-2 flex items-center hover:bg-blue-500 hover:border-blue-700' to='skills' smooth={true} duration={500}>
-            <Link to='skills' smooth={true} duration={500}>
+            <Link to='skills' offset={-200} smooth={true} duration={500}>
             View my skillset
             </Link>
           </li>
