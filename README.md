@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## It's online using Firebase! Access it now!
 
-This website is deployed online using Firebase: https://portfolio-b9eb3.web.app/
+This website is deployed online using Firebase: ----
 
 ## How launch locally
 
@@ -53,7 +53,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 
 
-# Currently there are list of things to keep in mid with this app:
+# Currently there are list of things to keep in mind with this app:
  * data.js in src/lib is a sample json simulation.
  * Currently only the first two items has their own page for the sake of time.
  * The buy option is missing temporary while I test out shopping cart feature using Redux
