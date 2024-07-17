@@ -9,7 +9,7 @@ import animation from '../assets/img/AniGlobe.gif';
 const Home = () => {
   
   return (
-    <div name='home' className='w-full centre h-screen bg-cover relative'
+    <div name='home' className='w-full centre  h-screen bg-cover relative'
     
     style={{
       backgroundImage: `url(${animation})` , zIndex: 0,

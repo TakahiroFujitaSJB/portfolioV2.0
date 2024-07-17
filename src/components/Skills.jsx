@@ -25,13 +25,13 @@ import csharp from '../assets/img/csharp.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen pb-14 bg-gradient-to-b from-[#1854ad] via-[#4508b4] to-[#b503fc] text-gray-300'>
+    <div name='skills'  className='w-full h-screen pb-40 bg-gradient-to-b from-[#1854ad] via-[#4508b4] to-[#b503fc] text-gray-300 '>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='w-full grid grid-cols-2 sm:grid-cols-2 text-center'>
               <p className='text-4xl font-bold flex items-center justify-center '><a className="underline decoration-red-500">
                 Skills</a></p> 
-            <Lottie animationData={SkillsAni} className='max-h-[400px] max-w-[400px] py-10' />
+            <Lottie animationData={SkillsAni} className='max-h-[400px] max-w-[400px] py-10 invisible sm:visible' />
           </div>
               <p className='py-4 text-lg'>Within my University Career whether it be in a Course or Club, I have learned 
               and used many techstacks. Here are some of them! </p>      
