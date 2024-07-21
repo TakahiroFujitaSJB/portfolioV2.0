@@ -19,7 +19,7 @@ import Excel from '../assets/img/Excel.png';
 import MySQL from '../assets/img/MySQL.png';
 import Git from '../assets/img/git.png';
 import AzureML from '../assets/img/AzureML.png';
-import Postman from '../assets/img/postman.png';
+import Redux from '../assets/img/redux.png';
 import Django from '../assets/img/django.png';
 import csharp from '../assets/img/csharp.png';
 
@@ -83,6 +83,14 @@ const Skills = () => {
                   <p className='my-4'>React</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-1' src={Redux} alt="HTML icon" />
+                  <p className='my-5'>Redux</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto py-1' src={Tailwind} alt="HTML icon" />
+                  <p className='my-4'>Tailwind</p>
+              </div>
+              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={Git} alt="HTML icon" />
                   <p className='my-4'>Git</p>
               </div>
@@ -95,20 +103,12 @@ const Skills = () => {
                   <p className='my-4'>Node JS</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-1' src={Tailwind} alt="HTML icon" />
-                  <p className='my-4'>Tailwind</p>
-              </div>
-              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={MySQL} alt="HTML icon" />
                   <p className='my-4'>MySQL</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={Django} alt="HTML icon" />
                   <p className='my-4'>Django</p>
-              </div>
-              <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto py-1' src={Postman} alt="HTML icon" />
-                  <p className='my-5'>Postman</p>
               </div>
               <div className='shadow-md max-h-[150px] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto py-1' src={AzureML} alt="HTML icon" />
