@@ -34,9 +34,9 @@ export const pData=[
     {
         id:4,
         name:"Ongoing: React CRUD/Context app",
-        info: "currently working on an react app with CRUD and useContext features!",
+        info: "currently working on an react app with CRUD and React Context features!",
         image: crud,
-        github:"",
+        github:"https://github.com/TakahiroFujitaSJB/React-Context-CRUD-App",
         live:"",
     },
 ]
