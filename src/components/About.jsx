@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className='w-full grid sm:grid-cols-2 gap-6 px-4'>
             <div className='max-w-[1300px] flex items-right justify-end'>
-              <img src={Self2} alt="Self2" className="w-[400px] h-[430px]"/>;
+              <img src={Self2} alt="Self2" className="w-[400px] h-[430px]"/>
             </div>
             <div className='max-w-[630px] max-h-[600px] sm:text-lg md:text-xl lg:text-2xl self-center'>
               <p>
