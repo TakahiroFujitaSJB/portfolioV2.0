@@ -28,7 +28,7 @@ export const pData=[
         name:"Blazor/C# Project",
         info: "A simple Cooking Instructor mobile/web app made using Blazor and C#!",
         image: cooking,
-        github:"https://github.com/Ty-Irving/481-Group-Project",
+        github:"https://github.com/TakahiroFujitaSJB/481-Group-Project",
         live:"",
     },
     {
